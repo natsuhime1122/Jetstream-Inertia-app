@@ -105,5 +105,9 @@
     /* Skip type checking all .d.ts files. */
     "module": "es2022",
     "moduleResolution": "Node",
+    "baseUrl": "./resources/js",
+    "paths": {
+      "@/*": ["./*"]
+    }
   }
 }
